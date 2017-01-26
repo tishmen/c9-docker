@@ -1,131 +1,131 @@
 {
-    "key-bindings": {
-        "@preset": "default",
-        "@platform": "auto"
-    },
-    "general": {
-        "@skin": "dark",
-        "@animateui": true,
-        "@preview-tree": false,
-        "@treestyle": "default",
-        "@downloadFilesAs": "auto",
-        "@preview-navigate": false,
-        "@revealfile": false,
-        "@automerge": false,
-        "@confirmmerge": true
-    },
-    "tabs": {
-        "@show": true,
-        "@title": false,
-        "@asterisk": false,
-        "@autoclosepanes": true
-    },
-    "tour": {
-        "@default-complete": false
-    },
-    "collab": {
-        "@showbubbles": true
-    },
     "ace": {
-        "@useWrapMode": false,
-        "@wrapToView": true,
-        "@fontSize": "12",
-        "@fontFamily": "Monaco, Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace",
+        "@animatedScroll": true,
         "@antialiasedfonts": false,
-        "@overwrite": false,
-        "@selectionStyle": "line",
-        "@cursorStyle": "ace",
+        "@behavioursEnabled": true,
+        "@cursorStyle": "smooth slim",
+        "@displayIndentGuides": true,
+        "@fadeFoldWidgets": true,
+        "@fontFamily": "Monaco, Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace",
+        "@fontSize": 16,
         "@highlightActiveLine": true,
         "@highlightGutterLine": true,
-        "@showInvisibles": false,
-        "@showPrintMargin": true,
-        "@displayIndentGuides": true,
-        "@printMarginColumn": "80",
-        "@behavioursEnabled": true,
-        "@wrapBehavioursEnabled": false,
-        "@scrollSpeed": "2",
-        "@showGutter": true,
-        "@showLineNumbers": true,
-        "@showFoldWidgets": true,
-        "@fadeFoldWidgets": true,
         "@highlightSelectedWord": true,
-        "@animatedScroll": true,
-        "@scrollPastEnd": "0.5",
-        "@mergeUndoDeltas": "off",
-        "@theme": "ace/theme/cloud9_night_low_color",
-        "statusbar": {
-            "@show": true
-        },
         "@keyboardmode": "default",
+        "@mergeUndoDeltas": "off",
+        "@overwrite": false,
+        "@printMarginColumn": "80",
+        "@scrollPastEnd": "0.5",
+        "@scrollSpeed": "2",
+        "@selectionStyle": "line",
+        "@showFoldWidgets": true,
+        "@showGutter": true,
+        "@showInvisibles": false,
+        "@showLineNumbers": true,
+        "@showPrintMargin": true,
+        "@theme": "ace/theme/cloud9_night_low_color",
+        "@useWrapMode": false,
+        "@wrapBehavioursEnabled": true,
+        "@wrapToView": true,
         "custom-types": {
             "json()": {
                 "settings": "javascript"
             }
+        },
+        "statusbar": {
+            "@show": true
         }
     },
+    "breakpoints": {
+        "@active": true
+    },
+    "build": {
+        "@autobuild": false
+    },
+    "collab": {
+        "@showbubbles": true
+    },
+    "debug": {
+        "@autoshow": true,
+        "@pause": 0
+    },
+    "findinfiles": {
+        "@clear": true,
+        "@consolelaunch": false,
+        "@fullpath": false,
+        "@project": "/",
+        "@scrolldown": false
+    },
+    "general": {
+        "@animateui": true,
+        "@automerge": false,
+        "@confirmmerge": true,
+        "@downloadFilesAs": "auto",
+        "@preview-navigate": true,
+        "@preview-tree": false,
+        "@revealfile": false,
+        "@skin": "flat-dark",
+        "@treestyle": "default"
+    },
+    "key-bindings": {
+        "@platform": "auto",
+        "@preset": "default"
+    },
     "language": {
-        "@hints": true,
         "@continuousCompletion": true,
-        "@instanceHighlight": true,
         "@enterCompletion": true,
+        "@hints": true,
+        "@instanceHighlight": true,
         "@overrideMultiselectShortcuts": true
     },
-    "terminal": {
-        "@backgroundColor": "#153649",
+    "metadata": {
+        "@undolimit": "100"
+    },
+    "openfiles": {
+        "@hidetree": false,
+        "@show": false
+    },
+    "output": {
+        "@backgroundColor": "#003a58",
         "@foregroundColor": "#FFFFFF",
-        "@selectionColor": "#515D77",
-        "@antialiasedfonts": true,
-        "@fontfamily": "Ubuntu Mono, Menlo, Consolas, monospace",
-        "@fontsize": "12",
-        "@blinking": false,
-        "@scrollback": 1000,
-        "@defaultEnvEditor": false
+        "@keepOutput": false,
+        "@nosavequestion": false,
+        "@selectionColor": "#225477"
+    },
+    "preview": {
+        "@default": "preview.browser",
+        "@onSave": false,
+        "@running_app": false
     },
     "projecttree": {
         "@hiddenFilePattern": "*.pyc, __pycache__, .*",
         "@scope": false,
         "@showhidden": false
     },
-    "debug": {
-        "@pause": 0,
-        "@autoshow": true
-    },
-    "metadata": {
-        "@undolimit": "100"
-    },
-    "openfiles": {
-        "@show": false,
-        "@hidetree": false
-    },
     "runconfig": {
-        "@saveallbeforerun": true,
         "@debug": true,
+        "@saveallbeforerun": true,
         "@showruncfglist": false
     },
-    "build": {
-        "@autobuild": false
+    "tabs": {
+        "@asterisk": true,
+        "@autoclosepanes": false,
+        "@show": true,
+        "@title": false
     },
-    "breakpoints": {
-        "@active": true
-    },
-    "output": {
-        "@backgroundColor": "#003a58",
+    "terminal": {
+        "@antialiasedfonts": true,
+        "@backgroundColor": "#153649",
+        "@blinking": true,
+        "@defaultEnvEditor": false,
+        "@fontfamily": "Ubuntu Mono, Menlo, Consolas, monospace",
+        "@fontsize": 16,
         "@foregroundColor": "#FFFFFF",
-        "@selectionColor": "#225477",
-        "@nosavequestion": false,
-        "@keepOutput": false
+        "@scrollback": 1000,
+        "@selectionColor": "#515D77"
     },
-    "preview": {
-        "@running_app": false,
-        "@default": "preview.browser",
-        "@onSave": false
-    },
-    "findinfiles": {
-        "@consolelaunch": false,
-        "@fullpath": false,
-        "@scrolldown": false,
-        "@project": "/",
-        "@clear": true
+    "tour": {
+        "@default-complete": false
     },
     "welcome": {
         "@first": true
