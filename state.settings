@@ -1,0 +1,188 @@
+{
+    "console": {
+        "@expanded": true,
+        "@height": 300,
+        "@maximized": false,
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab2",
+                    "tab3"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab2",
+                    "path": "",
+                    "className": [
+                        "tab2",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1485508222990
+                        },
+                        "filter": true,
+                        "title": "bash - \"a7a9f67ce701\"",
+                        "tooltip": "bash - \"a7a9f67ce701\"",
+                        "terminal": {
+                            "id": "devel_231",
+                            "cwd": "",
+                            "width": 1101,
+                            "height": 286
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": "",
+                    "className": [
+                        "tab3"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1485508228767
+                        },
+                        "filter": true,
+                        "title": "Immediate (Javascript (browser))",
+                        "tooltip": "Immediate (Javascript (browser))",
+                        "immediate": {
+                            "type": "jsbrowser",
+                            "history": [],
+                            "pos": 0
+                        }
+                    },
+                    "editorType": "immediate",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@autosave": 0,
+        "@flat-dark": false,
+        "@git": 1,
+        "@plugin-manager": 1,
+        "@plugins": 0,
+        "@sdk": 0,
+        "@test": false
+    },
+    "ext": {
+        "counters": {
+            "@ace": 2,
+            "@acestatus": 1,
+            "@datagrid": 1,
+            "@divider": 5,
+            "@document": 9,
+            "@form": 5,
+            "@immediate": 1,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 3,
+            "@preferences": 1,
+            "@session": 9,
+            "@tab": 5,
+            "@tree": 2,
+            "@undoManager": 9
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": true
+    },
+    "nak": {
+        "@installed": true
+    },
+    "openfiles": {
+        "@hidetree": false
+    },
+    "panecycle": {
+        "json()": [
+            "tab2"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "none",
+        "commands.panel": {
+            "@enabled": "false",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "false",
+            "@name": "debugger"
+        },
+        "navigate": {
+            "@enabled": "false",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "false",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "false",
+            "@name": "scm"
+        },
+        "test": {
+            "@enabled": "false",
+            "@name": "false"
+        },
+        "tree": {
+            "@enabled": "false",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/.c9"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab2",
+            "meta": {
+                "accessList": []
+            },
+            "name": "pane0",
+            "nodes": [],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "test": {
+        "coverage": {
+            "@show": false
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/"
+        ]
+    }
+}
